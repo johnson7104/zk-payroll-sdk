@@ -293,5 +293,7 @@ export * from "./payroll/latestApprovedRevisionReader";
 // ── Treasury Liquidity Forecast Safeguards ─────────────────────────────────
 export * from "./treasury/liquidityForecastSafeguards";
 
+// ── Organization Configuration Change Ledger (#701) ─────────────────────────
+export * from "./audit/organizationConfigChangeLedger";
 // Interrupted Payroll Run Recovery Controls (#742)
 export * from "./payroll/runRecovery";
